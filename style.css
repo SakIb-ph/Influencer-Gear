@@ -1,41 +1,88 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: "Roboto Slab", serif;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 10px;
+  text-align: justify;
 }
 nav {
   display: flex;
   justify-content: space-between;
   height: 80px;
-  align-items: center;
 }
 .container {
   max-width: 1400px;
-  margin: 20px auto;
-  padding: 0 40px;
+  margin: 50px auto;
+  padding: 0 35px;
 }
-.tittle {
-  font-size: 30px;
+.header-tittle {
+  font-size: 20px;
+  width: 29%;
 }
 .navigation-bar {
   display: flex;
+  width: 70%;
+  text-align: right;
+  margin-left: 40%;
 }
 .navigation-bar,
 li {
-  margin: 0 15px;
   list-style: none;
+  padding: 9px;
+  font-weight: 550;
+  font-size: 13px;
 }
 .navigation-bar,
 a {
   color: black;
   text-decoration: none;
-  padding: 5px;
+  padding: 3px;
 }
 .navigation-bar,
 a:hover {
   color: blue;
+}
+.influencer-journey {
+  display: flex;
+  margin-top: 70px;
+  margin-left: 20px;
+  justify-content: center;
+  height: 400px;
+}
+.article-tittle {
+  font-size: 35px;
+  width: 70%;
+  font-weight: 900;
+}
+.blog {
+  margin-top: 10px;
+  width: 65%;
+}
+.prebook-option {
+  background-color: #e02c6d;
+  color: white;
+  padding: 7px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.prebook-option:hover {
+  color: rgb(23, 37, 232);
+}
+.fa-arrow-right {
+  color: rgb(248, 248, 248);
+  padding-left: 10px;
+}
+.camera-image {
+  width: 70%;
+  height: 60%;
+  margin-right: 8%;
+}
+.camera-image img {
+  width: 80%;
 }
