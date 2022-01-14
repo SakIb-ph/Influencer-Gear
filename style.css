@@ -50,13 +50,13 @@ a:hover {
 .influencer-journey {
   display: flex;
   margin-top: 70px;
-  margin-left: 20px;
+  margin-left: 100px;
   justify-content: center;
   height: 400px;
 }
 .article-tittle {
   font-size: 35px;
-  width: 70%;
+  width: 75%;
   font-weight: 900;
 }
 .blog {
@@ -85,4 +85,20 @@ a:hover {
 }
 .camera-image img {
   width: 80%;
+}
+.gears-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.gear {
+  background-image: linear-gradient(
+    rgba(118, 122, 184, 0.193),
+    rgba(189, 134, 131, 0.289)
+  );
+  margin: 20px 40px;
+  padding: 10px;
+  height: auto%;
+}
+.gear img {
+  width: 100%;
 }
