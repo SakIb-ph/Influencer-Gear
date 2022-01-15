@@ -85,7 +85,10 @@ a:hover {
   margin-right: 8%;
 }
 .camera-image img {
-  width: 80%;
+  width: 100%;
+}.camera-image img:hover{
+  transform: scale(1.6) rotate(360deg);
+  transition: transform 2s ease-in-out;
 }
 .icon {
   padding: 0 100px;
