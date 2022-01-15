@@ -135,7 +135,11 @@ a:hover {
   color: #e02c6d;
   margin-left: 80%;
   cursor: pointer;
-}.line{margin-top: 60px;
+}.line{
+  margin-top: 60px;
+}.social-site{
+  color: rgb(75, 75, 158);
+  font-size: 150%;
 }
 .login-container{
 display: flex;
@@ -170,6 +174,7 @@ margin-top: 30px;
   margin-top: 30px;
   width:60%;
   padding: 0 10%;
+  height:6% ;
 }.Ending{
   margin-top: 20px;
   text-align: center;
