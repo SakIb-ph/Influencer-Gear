@@ -186,6 +186,44 @@ margin-top: 30px;
   padding: 20px 0;
 }.social-media-icon{
   color: beige;
-}.info{margin-top: 10px;
-
+}.info{
+  margin-top: 10px;
 }
+/* Responsive Css */
+@media (max-width:768px){
+  .gears-item{
+    grid-template-columns: 1fr;
+  }.container{
+    grid-template-columns: 1fr;
+  }.influencer-journey{
+    grid-template-columns: 1fr;
+  }.icon{
+    grid-template-columns: 1fr;
+  }.blog{
+    grid-template-columns: 1fr;
+  }.login-container{
+    grid-template-columns: 1fr;
+  }.ending{
+    grid-template-columns: 1fr;
+  }hr{
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width:992px){
+  .gears-item{
+    grid-template-columns: 1fr 1fr;
+  }.container{
+    grid-template-columns: 1fr 1fr;
+  }.influencer-journey{
+    grid-template-columns: 1fr 1fr;
+  }.icon{
+    grid-template-columns: 1fr 1fr;
+  }.blog{
+    grid-template-columns: 1fr 1fr;
+  }.login-container{
+    grid-template-columns: 1fr 1fr;
+  }.ending{
+    grid-template-columns: 1fr 1fr;
+  }
+  }
+
