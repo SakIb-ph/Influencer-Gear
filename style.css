@@ -169,13 +169,17 @@ margin-top: 30px;
 
 }.bar{
   text-decoration: none;
-  margin-left: 40%;
-  font-size: 14px;
+  margin-left: 50%;
+  font-size: 13px;
   margin-top: 30px;
-  width:60%;
+  width:50%;
   padding: 0 10%;
   height:6% ;
-}.Ending{
+  border: 2px solid;
+}
+
+
+.Ending{
   margin-top: 20px;
   text-align: center;
   background-color: rgb(2, 4, 26);
